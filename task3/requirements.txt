@@ -1,0 +1,7 @@
+faiss-cpu
+sentence-transformers
+numpy
+langchain-text-splitters
+langchain
+langchain-community
+tqdm

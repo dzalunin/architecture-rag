@@ -1,0 +1,7 @@
+{
+  "model": "intfloat/multilingual-e5-base",
+  "chunk_size": 512,
+  "chunk_overlap": 50,
+  "total_documents": 24,
+  "total_chunks": 4782
+}

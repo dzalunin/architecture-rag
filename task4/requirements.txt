@@ -1,0 +1,14 @@
+fastapi
+fastapi[standard]
+pydantic-settings
+uvicorn
+sentence-transformers
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+faiss-cpu
+numpy
+ollama
+structlog
+langchain-huggingface
