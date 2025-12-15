@@ -10,9 +10,8 @@ from app.rag.llm import OllamaClient
 from app.settings import settings
 from fastapi import FastAPI
 from app.rag.safety import (
-    block_if_malicious_user_query,
-    filter_chunks,
-    SYSTEM_SAFETY,
+    strip_system_directives,
+    SYSTEM_SAFETY
 )
 
 
@@ -30,7 +29,7 @@ A:
 
 SYSTEM_PROMPT = (
     "Ты — ассистент по внутренней базе знаний компании. Отвечай строго на русском языке."
-    f"{SYSTEM_SAFETY + '\n\n' if settings.SAVE_MODE else ''}"
+    f"{'\n\n' + SYSTEM_SAFETY + '\n\n' if settings.SAVE_MODE else ''}"
     "Отвечай только на основании предоставленного контекста и few-shot примеров."
     "Если контекст пуст - ответь «Я не знаю». Не выдумывай того, чего нет в контексте."
     "Всегда сначала выполняй скрытое размышление (Chain-of-Thought), но не раскрывай его."
@@ -48,36 +47,32 @@ def rag_prompt(request: ModelRequest) -> str:
     - извлекает последние сообщения
     - делает поиск по FAISS
     """
-    last_query  = request.state["messages"][-1].text
+    last_query  = request.state["messages"][-1].text      
 
-    # if settings.SAVE_MODE:
-    #     blocked = block_if_malicious_user_query(last_query)
-    #     if blocked:
-    #         return blocked
+    if settings.SAVE_MODE:
+        try:
+            last_query = strip_system_directives(last_query)
+        except Exception as e:
+            raise e
 
     retriever = request.state["retriever"]
     retrieved_docs = retriever.invoke(last_query)
 
-
-    docs_content = "\n\n".join(
-        f"[{i+1}] {doc.page_content}\n"
-        f"Источник: {doc.metadata.get('source')}\n"
-        f"URL: {doc.metadata.get('seed')}\n"
-        f"Заголовок: {doc.metadata.get('canonical')}\n"
+    docs_content = "\n".join(
+        f"[{i+1}] {doc.page_content}"
+        f"Источник: {doc.metadata.get('source')}"
+        f"Заголовок: {doc.metadata.get('canonical')}"
         for i, doc in enumerate(retrieved_docs)
     ) if retrieved_docs else 'Контекст пуст'
     print(f"Найдено документов {len(retrieved_docs)}")
 
     prompt = f"""
-
+    {SYSTEM_PROMPT}
     Это контекст из базы знаний:
     {docs_content}
-
     Few-shot примеры:
     {FEW_SHOT_EXAMPLES}
-
     Теперь ответь на вопрос пользователя в соответствии с системными правилами.
-
     Вопрос: {last_query}
     """
     return prompt

@@ -123,6 +123,7 @@ app/
 ├── rag/
 │   ├── agent.py        # Инициализация и жизненный цикл RAG-агента (LangChain-агент с динамическим RAG-prompt’ом)
 │   ├── retrieval.py    # FAISS + embedding поиск
+│   ├── safety.py       # Защита от вредоносных запросов
 │   └── llm.py          # Клиент Ollama
 ├── lifespan.py         # Lifespan FastAPI
 ├── logging.py          # Конфигурация логов

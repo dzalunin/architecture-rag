@@ -11,24 +11,24 @@ services:
       - OLLAMA_KEEP_ALIVE=true
       - OLLAMA_DEBUG=true
 
-  # rag_api:
-  #   build: .
-  #   container_name: rag_api
-  #   restart: unless-stopped
-  #   ports:
-  #     - "8000:8000"  
-  #   environment:
-  #     - OLLAMA_BASE_URL=http://ollama:11434
-  #     - EMBEDDING_MODELS_CACHE_DIR=/app/cache
-  #     - OLLAMA_MODEL=llama3.2:3b
-  #     - LOG_LEVEL=DEBUG
-  #     - VECTORSTORE_DIR=/app/index
-  #     - SAVE_MODE=True
-  #   depends_on:
-  #     - ollama
-  #   volumes:
-  #     - ./vector_store:/app/index
-  #     - ./cache:/app/cache
+  rag_api:
+    build: .
+    container_name: rag_api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"  
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - EMBEDDING_MODELS_CACHE_DIR=/app/cache
+      - OLLAMA_MODEL=llama3.2:3b
+      - LOG_LEVEL=DEBUG
+      - VECTORSTORE_DIR=/app/index
+      - SAVE_MODE=True
+    depends_on:
+      - ollama
+    volumes:
+      - ./vector_store:/app/index
+      - ./cache:/app/cache
 
 volumes:
   ollama_models:

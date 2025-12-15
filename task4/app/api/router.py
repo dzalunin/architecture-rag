@@ -3,6 +3,7 @@ from fastapi import APIRouter, Depends
 from app.logging import logger
 from app.api.models import RAGRequest, RAGResponse
 from app.api.depts import get_rag_container
+from app.rag.safety import PromptInjectionError
 
 router = APIRouter()
 
@@ -43,5 +44,7 @@ async def ask(
             answer.append(chunk.text)
 
         return RAGResponse(answer="\n\n".join(answer))
+    except PromptInjectionError as pe:
+        return RAGResponse(answer=str(pe))
     except Exception as e:
         raise e
