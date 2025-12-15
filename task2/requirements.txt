@@ -1,0 +1,6 @@
+beautifulsoup4
+aiohttp
+async_timeout
+asyncio
+lxml
+regex

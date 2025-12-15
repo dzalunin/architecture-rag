@@ -1,0 +1,278 @@
+[
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%99%D0%BE%D0%B4%D0%B0",
+    "canonical": "Йода",
+    "pageid": 2085,
+    "status": "ok",
+    "path": "task2/raw/Йода.md",
+    "stats": {
+      "paras": 106,
+      "list_items": 0,
+      "chars": 49490
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%9B%D0%B5%D1%8F_%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B0",
+    "canonical": "Лея Органа-Соло",
+    "pageid": 1705,
+    "status": "ok",
+    "path": "task2/raw/Лея_Органа-Соло.md",
+    "stats": {
+      "paras": 301,
+      "list_items": 0,
+      "chars": 131874
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%9E%D0%B1%D0%B8-%D0%92%D0%B0%D0%BD_%D0%9A%D0%B5%D0%BD%D0%BE%D0%B1%D0%B8",
+    "canonical": "Оби-Ван Кеноби",
+    "pageid": 1493,
+    "status": "ok",
+    "path": "task2/raw/Оби-Ван_Кеноби.md",
+    "stats": {
+      "paras": 289,
+      "list_items": 0,
+      "chars": 131318
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%94%D0%B0%D1%80%D1%82_%D0%A1%D0%B8%D0%B4%D0%B8%D1%83%D1%81",
+    "canonical": "Палпатин",
+    "pageid": 1867,
+    "status": "ok",
+    "path": "task2/raw/Палпатин.md",
+    "stats": {
+      "paras": 430,
+      "list_items": 6,
+      "chars": 234018
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%A5%D0%B0%D0%BD_%D0%A1%D0%BE%D0%BB%D0%BE",
+    "canonical": "Хан Соло",
+    "pageid": 22334,
+    "status": "ok",
+    "path": "task2/raw/Хан_Соло.md",
+    "stats": {
+      "paras": 117,
+      "list_items": 0,
+      "chars": 59993
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%91%D0%BE%D0%B1%D0%B0_%D0%A4%D0%B5%D1%82%D1%82",
+    "canonical": "Боба Фетт",
+    "pageid": 4331,
+    "status": "ok",
+    "path": "task2/raw/Боба_Фетт.md",
+    "stats": {
+      "paras": 220,
+      "list_items": 0,
+      "chars": 98277
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%9B%D1%8E%D0%BA_%D0%A1%D0%BA%D0%B0%D0%B9%D1%83%D0%BE%D0%BA%D0%B5%D1%80",
+    "canonical": "Люк Скайуокер",
+    "pageid": 1539,
+    "status": "ok",
+    "path": "task2/raw/Люк_Скайуокер.md",
+    "stats": {
+      "paras": 367,
+      "list_items": 0,
+      "chars": 194454
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%94%D0%B0%D1%80%D1%82_%D0%92%D0%B5%D0%B9%D0%B4%D0%B5%D1%80",
+    "canonical": "Энакин Скайуокер",
+    "pageid": 22335,
+    "status": "ok",
+    "path": "task2/raw/Энакин_Скайуокер.md",
+    "stats": {
+      "paras": 649,
+      "list_items": 0,
+      "chars": 347321
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%A0%D0%B5%D0%B9",
+    "canonical": "Рей Скайуокер",
+    "pageid": 68428,
+    "status": "ok",
+    "path": "task2/raw/Рей_Скайуокер.md",
+    "stats": {
+      "paras": 150,
+      "list_items": 0,
+      "chars": 96513
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%9A%D0%B0%D0%B9%D0%B1%D0%B5%D1%80-%D0%BA%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%BB%D0%BB",
+    "canonical": "Кайбер-кристалл",
+    "pageid": 66940,
+    "status": "ok",
+    "path": "task2/raw/Кайбер-кристалл.md",
+    "stats": {
+      "paras": 31,
+      "list_items": 40,
+      "chars": 15157
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%A2%D1%8B%D1%81%D1%8F%D1%87%D0%B5%D0%BB%D0%B5%D1%82%D0%BD%D0%B8%D0%B9_%D1%81%D0%BE%D0%BA%D0%BE%D0%BB",
+    "canonical": "Тысячелетний сокол",
+    "pageid": 17710,
+    "status": "ok",
+    "path": "task2/raw/Тысячелетний_сокол.md",
+    "stats": {
+      "paras": 73,
+      "list_items": 32,
+      "chars": 35771
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%9A%D0%B0%D0%B9%D0%BB%D0%BE_%D0%A0%D0%B5%D0%BD",
+    "canonical": "Бен Соло",
+    "pageid": 104871,
+    "status": "ok",
+    "path": "task2/raw/Бен_Соло.md",
+    "stats": {
+      "paras": 249,
+      "list_items": 0,
+      "chars": 120297
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/R2-D2",
+    "canonical": "R2-D2",
+    "pageid": 4336,
+    "status": "ok",
+    "path": "task2/raw/R2-D2.md",
+    "stats": {
+      "paras": 48,
+      "list_items": 23,
+      "chars": 21935
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%A7%D1%83%D0%B1%D0%B0%D0%BA%D0%BA%D0%B0",
+    "canonical": "Чубакка",
+    "pageid": 3738,
+    "status": "ok",
+    "path": "task2/raw/Чубакка.md",
+    "stats": {
+      "paras": 126,
+      "list_items": 0,
+      "chars": 46234
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/C-3PO",
+    "canonical": "C-3PO",
+    "pageid": 4335,
+    "status": "ok",
+    "path": "task2/raw/C-3PO.md",
+    "stats": {
+      "paras": 107,
+      "list_items": 0,
+      "chars": 56981
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%A1%D0%B2%D0%B5%D1%82%D0%BE%D0%B2%D0%BE%D0%B9_%D0%BC%D0%B5%D1%87",
+    "canonical": "Световой меч",
+    "pageid": 1838,
+    "status": "ok",
+    "path": "task2/raw/Световой_меч.md",
+    "stats": {
+      "paras": 93,
+      "list_items": 37,
+      "chars": 35855
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%91%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80",
+    "canonical": "Бластер",
+    "pageid": 15811,
+    "status": "ok",
+    "path": "task2/raw/Бластер.md",
+    "stats": {
+      "paras": 28,
+      "list_items": 11,
+      "chars": 7292
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D0%B4%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%B5%D0%BB%D1%8C",
+    "canonical": "Гипердвигатель",
+    "pageid": 25605,
+    "status": "ok",
+    "path": "task2/raw/Гипердвигатель.md",
+    "stats": {
+      "paras": 35,
+      "list_items": 0,
+      "chars": 11463
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%93%D0%B0%D0%BB%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0",
+    "canonical": "Галактическая гражданская война",
+    "pageid": 8025,
+    "status": "ok",
+    "path": "task2/raw/Галактическая_гражданская_война.md",
+    "stats": {
+      "paras": 222,
+      "list_items": 70,
+      "chars": 120042
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%BB%D0%B0",
+    "canonical": "Сила",
+    "pageid": 2374,
+    "status": "ok",
+    "path": "task2/raw/Сила.md",
+    "stats": {
+      "paras": 66,
+      "list_items": 76,
+      "chars": 26919
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%91%D0%B8%D1%82%D0%B2%D0%B0_%D0%BF%D1%80%D0%B8_%D0%AF%D0%B2%D0%B8%D0%BD%D0%B5",
+    "canonical": "Битва при Явине",
+    "pageid": 2585,
+    "status": "ok",
+    "path": "task2/raw/Битва_при_Явине.md",
+    "stats": {
+      "paras": 24,
+      "list_items": 50,
+      "chars": 10814
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%91%D0%B8%D1%82%D0%B2%D0%B0_%D0%BF%D1%80%D0%B8_%D0%AD%D0%BD%D0%B4%D0%BE%D1%80%D0%B5",
+    "canonical": "Битва при Эндоре",
+    "pageid": 8387,
+    "status": "ok",
+    "path": "task2/raw/Битва_при_Эндоре.md",
+    "stats": {
+      "paras": 64,
+      "list_items": 161,
+      "chars": 23674
+    }
+  },
+  {
+    "seed": "https://starwars.fandom.com/ru/wiki/%D0%92%D0%BE%D0%B9%D0%BD%D1%8B_%D0%BA%D0%BB%D0%BE%D0%BD%D0%BE%D0%B2",
+    "canonical": "Войны клонов",
+    "pageid": 3011,
+    "status": "ok",
+    "path": "task2/raw/Войны_клонов.md",
+    "stats": {
+      "paras": 322,
+      "list_items": 111,
+      "chars": 164542
+    }
+  }
+]
